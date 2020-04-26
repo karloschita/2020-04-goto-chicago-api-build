@@ -1,6 +1,6 @@
 # Installing
 
-Excerpt from **"Design and Build Great Web APIs"** by Mike Amundsen from Pragmatic Publishers
+Excerpt from (http://g.mamund.com/greatwebapis)[**"Design and Build Great Web APIs"**] by Mike Amundsen from Pragmatic Publishers
 
 The examples and exercises in this book rely in a handful of handy tools and utilities. This appendix is a short guide to locating and safely installing these tools on your local machine. Most of the install routines are pretty straightforward. However, a couple are a bit involved since the tools are supported on many different operating systems and involve multiple versions. I try to provide additional advice along the way to help steer you through any potential problems.
 
