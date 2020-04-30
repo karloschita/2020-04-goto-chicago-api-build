@@ -1,0 +1,23 @@
+openapi: 3.0.1
+
+info:
+  title: <TITLE>
+  description: <DESCRIPTION>
+  version: 1.0.0
+
+paths: {}
+
+components:
+  schemas:
+    todoItem:
+      description: todo item
+      type: object
+      properties:
+          id:
+            type: string
+          body:
+            type: string
+            
+
+
+

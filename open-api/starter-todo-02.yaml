@@ -1,0 +1,36 @@
+openapi: 3.0.1
+
+info:
+  title: <TITLE>
+  description: <DESCRIPTION>
+  version: 1.0.0
+
+paths:
+  /todo:
+    get:
+      summary: 'return list of todo items'
+      operationId: todoList
+      responses:
+        200:
+          description: get todoList
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/todoItem'
+
+components:
+  schemas:
+    todoItem:
+      description: todo item
+      type: object
+      properties:
+          id:
+            type: string
+          body:
+            type: string
+            
+
+
+
