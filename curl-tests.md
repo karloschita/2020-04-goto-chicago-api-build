@@ -1,6 +1,6 @@
 ## API Validation Tests
 
-Use these test calls w/ `curl` to validate the API
+Use these test calls w/ `curl` to validate the Company API
 
 ```
 http://localhost:8484/
